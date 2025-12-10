@@ -1,0 +1,2 @@
+data/markov/*.txt filter=lfs diff=lfs merge=lfs -text
+data/markov/*.zip filter=lfs diff=lfs merge=lfs -text
