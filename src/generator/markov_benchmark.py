@@ -1,8 +1,3 @@
-"""
-Benchmark: Custom MarkovPasswordGenerator vs markovify
-Compares training time, generation time, and memory usage
-"""
-
 import time
 import sys
 import markovify

@@ -4,9 +4,9 @@ import random
 class MarkovPasswordGenerator:
     def __init__(self, order=2):
         self.order = order
-        self.transitions = {}  # {state: {next_char: count}}
-        self.probabilities = {}  # {state: {next_char: probability}}
-        self.start_token = "^" * order  # "^^" for order 2
+        self.transitions = {} 
+        self.probabilities = {}  
+        self.start_token = "^" * order
         
     #load passwords and train model
     def train(self, password_file_path, max_passwords=None):
