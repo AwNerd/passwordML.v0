@@ -139,16 +139,7 @@ def main():
     print(f"  Total time: {benchmark['bcrypt']['total_time']:.4f} seconds")
     print(f"  Hashes/sec: {benchmark['bcrypt']['hashes_per_second']:.2f}")
     
-    print(f"\n{'='*60}")
-    print("WHY THE SPEED DIFFERENCE MATTERS:")
-    print(f"{'='*60}")
-    print("MD5 is ~1,000,000x faster than bcrypt!")
-    print("This means attackers can try 1 million MD5 guesses")
-    print("in the same time it takes to try 1 bcrypt guess.")
-    print("\nThis is why bcrypt is used for passwords")
-    print("bcrypt is intentionally slow to make brute force attacks impractical.")
-    print(f"{'='*60}\n")
-
+    
 
 if __name__ == "__main__":
     main()
